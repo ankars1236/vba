@@ -1,0 +1,18 @@
+Function prime()
+Dim div As Integer, number As Integer, i As Integer, a As Integer, b As Integer
+
+number = Selection.Cells(1, 1).Value
+
+For i = 1 To number
+If number Mod i = 0 Then
+div = div + 1
+End If
+Next i
+
+If div = 2 Then
+ActiveCell.Offset(0, 1).Value = True
+Else
+ActiveCell.Offset(0, 1).Value = False
+End If
+
+End Function

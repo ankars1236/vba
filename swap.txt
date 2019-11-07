@@ -1,0 +1,8 @@
+Sub Swap()
+Dim Temp As Double
+
+Temp = Selection.Cells(1, 1)
+Selection.Cells(1, 1) = Selection.Cells(1, 2)
+Selection.Cells(1, 2) = Temp
+
+End Sub
