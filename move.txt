@@ -1,5 +1,5 @@
 Sub Move()
-'this sub moves i,j cell to a new cell which is entered by inputbox'
+
 Dim col_in As String, row_in As Integer, z As Double, i as Integer, j as Integer
 
 col_in = InputBox("Please enter a column name:")
