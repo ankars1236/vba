@@ -1,10 +1,10 @@
 Sub Move()
 
-Dim col_in As String, row_in As Integer, z As Double, i as Integer, j as Integer
+Dim col_in As String, row_in As Integer, z As Double
 
 col_in = InputBox("Please enter a column name:")
 row_in = InputBox("Please enter a row number:")
-z = Selection.Cells(i, j)
+z = Selection.Cells(2, 1)
 Range(col_in & row_in) = z
 
 End Sub
